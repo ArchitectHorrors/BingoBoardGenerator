@@ -1,0 +1,46 @@
+@font-face {
+	font-family: "Gwent";
+	src: url(/font/hinted-GWENT-ExtraBold.ttf);
+}
+
+body {
+	margin: 40px;
+}
+
+.box {
+	background-color: lightgrey;
+	color: #fff;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 150%;
+}
+
+.box img {
+	width: 100%;
+	height: 100%;
+}
+
+.box1 img {
+	object-fit: fill;
+}
+
+.wrapper {
+	width: 600px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(5, 100px);
+	grid-template-rows: repeat(5, 100px);
+	grid-auto-flow: column;
+}
+
+.title {
+	margin-left: 185px;
+	font-family: "Gwent";
+	font-size: xx-large;
+}
+
+button {
+	font-family: "Gwent";
+	border: 2mm ridge rgb(78, 43, 3);
+	text-align: center;
+}
